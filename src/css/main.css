@@ -226,6 +226,37 @@ span {
   margin-bottom: 25px;
 }
 
+.gallery-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.gallery-photo:hover {
+  background-color: #5b6ceb;
+}
+
+.gallery-photo:hover img {
+  opacity: .3;
+}
+
+.gallery-photo::before {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 70px;
+  background-image: url(../img/hover-icon.png);
+  background-repeat: no-repeat;
+  left: -webkit-calc(50% - 35px);
+  left: calc(50% - 35px);
+  top: -webkit-calc(50% - 35px);
+  top: calc(50% - 35px);
+  visibility: hidden;
+}
+
+.gallery-photo:hover:before {
+  visibility: visible;
+}
+
 @font-face {
   font-family: 'freestyle script';
   src: url("../../font/font.woff") format("woff");

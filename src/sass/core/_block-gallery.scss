@@ -1,0 +1,26 @@
+.gallery-photo{
+	position: relative;
+	display: inline-block;
+
+	        &:hover {
+				background-color: $primary-color;
+			}
+
+			&:hover img{
+	           opacity: .3;
+	        }
+    &::before{
+		position: absolute;
+		content: '';
+		width: 70px;
+		height: 70px;
+		background-image: url(../img/hover-icon.png);
+		background-repeat: no-repeat;
+		left: calc(50% - 35px);
+		top: calc(50% - 35px);
+		visibility: hidden;
+    }    
+        &:hover:before {
+        	visibility: visible;
+        }
+}
