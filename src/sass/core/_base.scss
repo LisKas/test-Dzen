@@ -8,7 +8,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	color: $dark-grey;
+	color: $grey;
 }
 
 ul{
@@ -24,7 +24,20 @@ h1{
 	font-size: 48px;
 	font-weight:700;
 	line-height: 72px;
-	padding-right: 10px;	
+	padding-right: 10px;
+	margin-bottom: 50px;	
+}
+h2{ 
+    margin: 0;
+	text-transform: uppercase;
+	color: $primary-color;
+	font-size: 30px;
+	font-weight: 700;
+}
+span{
+	display: inline-block;
+	margin-top: 15px;
+	color: lighten($grey, 41.5%) ;
 }
 .container{
 	max-width: 1170px;
@@ -47,8 +60,15 @@ h1{
 	font-weight: 700;
 	cursor: pointer;
 }
-
+.font-freestyle{
+	 font-family: 'freestyle script', sans-serif;
+	 font-weight: 400;
+	 font-size: 41px;
+	 color: $grey;
+	 margin: 0;
+	 margin-top: 20px;
+}
 
 @import "header";
-@import "_block-classes";
+@import "block-classes";
 @import "media";
