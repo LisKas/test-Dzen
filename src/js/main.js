@@ -4,8 +4,8 @@ $( document ).ready(function() {
                     speed: 7000,
                     autoplay: true,
                     arrows: true,
-                    prevArrow: '<img class="controls right-control slick-next" src="img/slaid-right.png">', 
-                    nextArrow:    '<img class="controls left-control slick-prev" src="img/slaid-left.png">',
+                    prevArrow: '<img class="controls right-control slick-next" src="img/icon/slaid-right.png">', 
+                    nextArrow:    '<img class="controls left-control slick-prev" src="img/icon/slaid-left.png">',
 
                 });
 // ////////////////////////////

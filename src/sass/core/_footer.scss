@@ -1,19 +1,105 @@
 .footer-site{
 	color: white;
+
 	.footer{
     padding: 90px 0;	
 	background-color: $primary-color;
 	.footer-col{
 		width: 50%;
+		padding-right: 100px;
+		p{
+		display: inline-block;
+		margin: 0;
+		
+	    }
 	}
 	
     }
     .copyright{
+    padding: 40px 0;
+    text-align: center;
 	background-color: darken($primary-color, 1.8%);
+	color: lighten($grey, 46% )
     }
 }
 .ft-title{
 		font-size: 18px;
 		font-weight: 700;
 		text-transform: uppercase;
-	}
+		margin-bottom: 55px;
+}
+
+
+
+
+	
+.social {
+	margin-top: 65px;
+  li{display: inline-block;
+  }
+  a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite/sprite-social.png);
+  opacity: .8;
+  &:hover{
+   opacity: 1;
+  }
+}
+
+.pint{
+  background-position: 0px 0;
+}
+.tw{
+  background-position: -35px 0;
+}
+.fb{
+  background-position: -73px 0;
+} 
+.google{
+  background-position: -110px 0;
+}	
+.inst{
+  background-position: -148px 0;
+}
+}
+ .contact{
+    margin-bottom: 72px;
+&__item{
+     margin-bottom: 25px;
+     &:last-child{
+     	padding-right: 32px;
+     }
+}
+
+	i {
+  display: inline-block;
+  position: relative;
+  top:7px;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite/sprite-contact.png);
+  opacity: .8;
+ 
+ }
+
+.place{
+  background-position:  0px -7px;
+}
+.phone{
+  background-position: -40px -7px;
+}
+.email{
+  background-position: -109px -7px;
+} 
+.web-site{
+  background-position: -178px -7px;
+}	
+
+}
+ 

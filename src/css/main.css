@@ -11,12 +11,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  line-height: 22px;
   color: #555555;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 a {
@@ -177,7 +179,7 @@ b {
 
 .header-main {
   position: relative;
-  margin-top: 100px;
+  margin-top: 105px;
   padding: 100px 0 100px 0;
   background: url("../img/header-bg.png") no-repeat center;
 }
@@ -430,16 +432,108 @@ b {
 
 .footer-site .footer .footer-col {
   width: 50%;
+  padding-right: 100px;
+}
+
+.footer-site .footer .footer-col p {
+  display: inline-block;
+  margin: 0;
 }
 
 .footer-site .copyright {
+  padding: 40px 0;
+  text-align: center;
   background-color: #5365ea;
+  color: #cacaca;
 }
 
 .ft-title {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 55px;
+}
+
+.social {
+  margin-top: 65px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite/sprite-social.png);
+  opacity: .8;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+.social .pint {
+  background-position: 0px 0;
+}
+
+.social .tw {
+  background-position: -35px 0;
+}
+
+.social .fb {
+  background-position: -73px 0;
+}
+
+.social .google {
+  background-position: -110px 0;
+}
+
+.social .inst {
+  background-position: -148px 0;
+}
+
+.contact {
+  margin-bottom: 72px;
+}
+
+.contact__item {
+  margin-bottom: 25px;
+}
+
+.contact__item:last-child {
+  padding-right: 32px;
+}
+
+.contact i {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-image: url(../img/sprite/sprite-contact.png);
+  opacity: .8;
+}
+
+.contact .place {
+  background-position: 0px -7px;
+}
+
+.contact .phone {
+  background-position: -40px -7px;
+}
+
+.contact .email {
+  background-position: -109px -7px;
+}
+
+.contact .web-site {
+  background-position: -178px -7px;
 }
 
 @font-face {
