@@ -5,7 +5,7 @@
 		width: 50%;
 		margin-top: 75px;
 		display: flex;
-		margin-right: 20px;
+		border-radius: 10px;
 		box-shadow: 6px 6px 15px rgba(0,0,0 , .15);
 	}
 	.classes-description{
@@ -20,4 +20,7 @@
 		}
 
 	}
+}
+.block-classes__item:nth-child(2n+2){
+    padding-left: 20px;
 }

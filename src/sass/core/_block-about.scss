@@ -1,0 +1,15 @@
+.block-about{
+	padding: 120px 0;
+	.about-description{
+		max-width: 470px;
+		padding-right: 100px;
+		p{
+			margin-top: 25px;
+		}
+	}
+	.about-slider{
+		border-radius: 10px;
+		width: 570px;
+		box-shadow: 6px 6px 15px rgba(0,0,0 , .15);
+	}
+}

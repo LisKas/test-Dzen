@@ -1,0 +1,19 @@
+.footer-site{
+	color: white;
+	.footer{
+    padding: 90px 0;	
+	background-color: $primary-color;
+	.footer-col{
+		width: 50%;
+	}
+	
+    }
+    .copyright{
+	background-color: darken($primary-color, 1.8%);
+    }
+}
+.ft-title{
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
