@@ -6,12 +6,15 @@
 	background-color: $primary-color;
 	.footer-col{
 		width: 50%;
-		padding-right: 100px;
+	  padding: 0 50px;
 		p{
 		display: inline-block;
 		margin: 0;
 		
 	    }
+    .ft-about{
+      margin-bottom: 65px;
+    }  
 	}
 	
     }
@@ -34,8 +37,9 @@
 
 	
 .social {
-	margin-top: 65px;
-  li{display: inline-block;
+
+  li{
+    display: inline-block;
   }
   a {
   display: inline-block;
@@ -67,12 +71,15 @@
 }
 }
  .contact{
-    margin-bottom: 72px;
-&__item{
-     margin-bottom: 25px;
-     &:last-child{
-     	padding-right: 32px;
-     }
+    margin-bottom: 65px;
+    &__item{
+      float: left;
+     margin-right: 20px;
+     margin-bottom: 17px;
+   }
+   &__item:last-child{
+  padding-left: 20px;
+   }
 }
 
 	i {
@@ -101,5 +108,5 @@
   background-position: -178px -7px;
 }	
 
-}
+
  

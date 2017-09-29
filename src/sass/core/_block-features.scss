@@ -1,6 +1,6 @@
 .block-features{
 	padding: 125px 0;
-	background: url(../img/futures-bg.jpg) no-repeat center/cover;
+	background: url(../img/bg/futures-bg.jpg) no-repeat center/cover;
 	position: relative;
 	color: white;
 	 &::before{
@@ -19,17 +19,27 @@
 	line-height: 27px;
 	padding: 0 15px;
 	margin-bottom: 60px;
-	.features-icon{
-		margin-bottom: 30px;
+		.features-icon{
+	        display: inline-block;
+			margin-bottom: 30px;
+			opacity: .8;
+			
+		}
+	&:hover .features-icon {
+       opacity: 1;
+       
 	}
 	.features-title{
 		padding: 0 40px;
 		font-size: 18px;
 		font-weight: 700;
 		margin-bottom: 20px;
-		
 	}
-
+	&:hover .features-title {
+        color: darken($primary-color, 20%);
+        text-shadow: 0 0 5px white;
+       
+	}
 }
 
 }

@@ -23,7 +23,8 @@ gulp.task('concatCss' ,['sass'], function(){
 	return gulp.src([
 		'src/css/normalize.css',
 		'src/css/slick-theme.css',
-		'src/css/slick.css'])
+		'src/css/slick.css',
+		'src/css/jquery.fancybox.css'])
 	.pipe(concat('libs.css'))
 	.pipe(cssnano())
 	.pipe(gulp.dest('src/css'));
@@ -33,7 +34,8 @@ gulp.task('concatCss' ,['sass'], function(){
 gulp.task('concatJs' , function(){
 	return gulp.src([
 		'src/js/jquery.min.js',
-		'src/js/slick.min.js'])
+		'src/js/slick.min.js',
+		'src/js/jquery.fancybox.min.js'])
 	.pipe(concat('libs.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('src/js'));

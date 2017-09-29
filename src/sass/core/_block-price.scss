@@ -1,5 +1,5 @@
 .block-price{
-	padding: 100px 0;
+	padding-top: 100px;
 	.price{
 		text-align: center;
 		width: 370px;
@@ -29,7 +29,7 @@
 				font-size: 18px;
 				position: relative;
 			}
-			li:nth-child(4n+4)::before{
+			li+li::before{
 			    position: absolute;
 			    content:'';
 			    border-bottom: 1px solid lighten($grey, 41.5%);
@@ -37,11 +37,14 @@
 			    left: 135px;
 			    right: 135px;
 			}
+			li:last-child::before{
+                 visibility: hidden;
+			}
 
 		}
 
 	}
 	.price:nth-child(2){
-		margin: 0 15px;
+		margin: 0 30px;
 	}
 }

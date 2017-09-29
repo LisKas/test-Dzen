@@ -3,7 +3,7 @@
         position: fixed;
         width: 100%;
 	    padding: 15px 0;
-		background-color: $color-opacity;
+		background-color: white;
         z-index: 2;
         top:0;
         .menu { 
@@ -41,11 +41,13 @@
         	margin: 0 145px;
         }
 }
+/*////////////////////////////////////////////////////*/
 .header-main{
     position: relative;
     margin-top: 105px;
     padding: 100px 0 100px 0;
-    background: url('../img/header-bg.png') no-repeat center;
+
+    background: url('../img/bg/header-bg.png') no-repeat center;
     &::before{
         position:absolute;
         content:'';
@@ -66,24 +68,27 @@
             font-size: 26px;
             color: $primary-color;
         }
-        input{
+        input, select{
             background-color: #f2f2f2;
             border-radius: 10px;
             border: none;
             color: lighten($grey, 13.5%);
             width: 100%;
             padding: 15px 10px;
-            margin: 10px 0;        
+            margin: 10px 0;  
         }
         .btn{
             float: right;
             margin-top: 15px;   
         }
-}
+  }      
+/*///////////////////////////*/
 .header-slogan{
+
     margin-left: 90px;
     z-index: 1;
-    max-width: 500px;
+    max-width: 520px;
+     line-height: 72px;
     
     p {
        
