@@ -36,6 +36,19 @@ $( document ).ready(function() {
       // centerMode: true,
       // focusOnSelect: true
     });
-// ////////////////////////////
-});	
-    
+////////////////////////////
+$(".menu-click").click(function() {
+    $("ul").slideToggle("slow");
+     
+    });
+
+// $(".menu-click").click(function(){
+//        $(this).children("ul").fadeToggle("slow");
+                    
+//         $(this).toggleClass("active");
+          
+//     });
+
+
+// ///////////////////////////
+       });

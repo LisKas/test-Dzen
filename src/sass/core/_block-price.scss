@@ -2,8 +2,10 @@
 	padding-top: 100px;
 	.price{
 		text-align: center;
-		width: 370px;
-		border-radius: 0 0 10px 10px;
+		/*width: 370px;*/
+		width: calc(33.33% - 30px);
+		margin: 0 15px;
+ 		border-radius: 0 0 10px 10px;
 		box-shadow: 9px 9px 50px rgba(0,0,0 , .10);
 		padding-bottom: 50px;	
 		ul{
@@ -41,10 +43,7 @@
                  visibility: hidden;
 			}
 
-		}
 
-	}
-	.price:nth-child(2){
-		margin: 0 30px;
+		}
 	}
 }
