@@ -1,0 +1,115 @@
+/*...............................................BLOCK _ CLASSES............................................*/
+
+
+@media screen and (max-width: 1200px) {
+
+	.block-classes{
+	padding: 80px 0;
+	&__item{
+		width: 100%;
+		
+		margin: 25px 150px;
+	
+	}
+	
+}
+}
+
+@media screen and (max-width: 870px) {
+.block-classes{
+	padding: 80px 0;
+	&__item{
+		margin: 25px 80px;
+	}
+	
+}
+}
+
+@media screen and (max-width: 770px) {
+	h2{ 
+	font-size: 25px;
+}
+.font-freestyle{
+	 font-size: 35px;
+}
+.block-classes{
+	padding: 80px 0;
+	&__item{
+		margin: 18px 30px;
+	}
+}
+}
+@media screen and (max-width: 600px) {
+.block-classes{
+	.photo{
+		img{
+			max-height: 250px;
+		}
+	}
+	.classes-description{
+		text-align: center;
+		padding: 20px 15px;
+
+		.classes-title{
+           font-size: 18px;
+           margin-bottom: 15px;
+		}
+
+	}
+}
+
+}
+@media screen and (max-width: 540px) {
+h2{ 
+	font-size: 20px;
+}
+.font-freestyle{
+	 font-size: 30px;
+}	
+.block-classes{
+	&__item{
+		margin: 18px 80px;
+	}
+	.photo{
+		float: none; 
+		margin-right: 0;
+	    margin: 0 auto;
+		img{
+			border-radius: 10px;
+			margin: 0 auto;
+		}
+	}
+	.classes-description{
+		text-align: center;
+		padding: 20px 35px;
+
+		.classes-title{
+           font-size: 18px;
+           margin-bottom: 15px;
+		}
+
+	}
+}	
+
+}
+@media screen and (max-width: 460px) {
+.block-classes{
+	&__item{
+		margin: 18px 20px;
+	}
+	.photo{
+		img{
+			display: none;
+			border-radius: 10px;
+			margin: 0 auto;
+		}
+	}
+	.classes-description{
+	
+		padding: 20px 15px;
+		p{
+			font-size: 13px;
+		}
+	}
+}		
+}

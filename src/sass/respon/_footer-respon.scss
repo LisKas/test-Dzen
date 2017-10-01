@@ -1,0 +1,95 @@
+
+/*...............................................BLOCK _ FOOTER............................................*/
+
+@media screen and (max-width: 1220px) {
+.footer-site{
+ 
+  .footer{
+   padding: 50px 0;
+  	.footer-col{
+  		width: 100%;
+  		padding-left: 100px;
+  		margin-bottom: 30px;
+      .ft-about{
+        margin-bottom: 40px;
+        padding-right: 280px;
+      }  
+      .ft-title{
+        font-size: 23px;
+        margin-bottom: 20px;
+      }
+  	}
+  }
+}
+
+ .contact{
+    margin-bottom: 0px;
+    &__item{
+
+      display: block;
+     margin-right: 0px;
+     margin-bottom: 17px;
+     p{
+      display: inline-block;
+     }
+   }
+   &__item:last-child{
+  padding-left: 0;
+   }
+}
+
+}
+
+@media screen and (max-width: 880px) {
+.footer-site{
+ 
+  .footer{
+  	.footer-col{
+      .ft-about{
+     
+        padding-right: 80px;
+      }  
+  	}
+  }
+}
+
+}
+
+@media screen and (max-width: 500px) {
+.footer-site{
+ 
+  .footer{
+ 
+  	.footer-col{
+  		text-align: center;
+  		
+  		padding:0 30px;
+  	
+      .ft-about{
+        margin-bottom: 40px;
+        padding-right: 0;
+        font-size: 13px;
+      }  
+      .ft-title{
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+  	}
+  }
+}
+
+ .contact{
+    margin-bottom: 0px;
+    &__item{
+
+      display: block;
+     margin-right: 0px;
+     margin-bottom: 7px;
+     p{
+      display: inline-block;
+     }
+   }
+  
+}
+
+}

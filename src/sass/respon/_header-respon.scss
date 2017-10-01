@@ -1,0 +1,203 @@
+/*..............................................BLOCK _ HEADER..............................................*/
+
+@media screen and (max-width: 970px) {
+.header-main{
+    padding: 60px 0;
+
+}
+h1{
+	font-size: 40px;
+	margin-bottom: 30px;	
+}
+.header-form{ 
+     max-width: 250px;
+}
+.header-slogan{
+     margin-left: 80px;
+     line-height: 50px;
+} 
+}
+
+@media screen and (max-width: 900px) {
+.top-line{
+	.site-logo{
+		margin: 0 30px; 
+	}
+}
+.header-slogan{
+	max-width: 50%;
+     margin-left: 30px;
+     line-height: 36px;
+     h1{
+     	font-size: 30px;
+     }
+     p{
+     	padding: 0;
+     }
+}   
+}
+
+@media screen and (max-width: 760px) {
+
+.header-main{
+		padding: 50px 0;
+		.wrap-flex{
+			flex-direction: column-reverse;
+		
+		.header-form{
+			padding-bottom: 15px;
+			max-width: 100%;
+			margin: 0 50px;
+		}
+		.header-slogan{
+			text-align: center;
+			max-width: 100%;
+			margin: 0;
+			margin-bottom: 30px;
+			h1{
+				margin: 0;
+				margin-top: 10px;
+				padding: 0 ;
+				line-height: 45px;
+			}
+		}
+	}
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+.top-line{
+    .wrap-flex {
+		display:block;
+	}
+.menu-respon{
+        display: block;
+        width: 100%;
+        text-align: center;
+        	
+        ul{
+        margin-top: 20px;
+   		display: none;
+   		}
+         li{
+            display: inline;
+            padding: 0 15px;
+        }
+        a{
+            color: $grey;
+            padding-bottom: 5px;
+            position: relative;
+            &::before{
+            	position: absolute;
+			    content: '';
+				background-color: #5b6ceb;
+				top: 100%;
+				max-width: 30px;
+				height: 2px;
+				left: 0;
+				margin: 0 auto;
+				right: 0;
+				opacity: 0;
+            }
+            &:hover:before{
+                opacity: 1;
+            }	
+            &:hover{
+                color:$primary-color;
+                }
+            }
+}
+        
+   .menu { 
+        display: none;
+    }
+    .site-logo{
+        width: 70px;
+        margin: 0 auto;
+    }
+}
+.header-main{
+  padding-top: 85px;
+}
+}
+
+@media screen and (max-width: 540px) {
+	
+   .header-main{
+   	    .wrap-flex{
+   	    .header-slogan{
+			h1{
+				padding: 0 30px;
+				
+			}
+		}	
+   	    }
+		
+	}
+	
+
+}	
+
+@media screen and (max-width: 500px) {
+
+.top-line{
+
+    .menu-respon{
+        display: block;
+       	width: 100%;
+       	text-align: center;
+        	
+       		ul{
+       		    margin-top: 20px;
+   			li{
+            	display: block;
+            	padding: 7px 15px;
+              }
+		    }
+
+    }
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .header-main{
+   	.wrap-flex{
+   	.header-form{
+			max-width: 100%;
+			margin: 0 30px;
+        .form-title{
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: $primary-color;
+        }
+        input, select{
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            border: none;
+            color: lighten($grey, 13.5%);
+            width: 100%;
+            padding: 15px 10px;
+            margin: 10px 0;  
+        }
+        .btn{
+            padding: 12px 30px;  
+        }
+        
+	}	
+   	.header-slogan{
+		h1{
+			font-size: 25px;
+			padding: 0 18px;
+		}
+		p{
+			font-size: 30px;
+			padding: 0 20px;
+		}
+	}	
+    }
+		
+   }
+}  	

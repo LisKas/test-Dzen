@@ -24,6 +24,7 @@ gulp.task('concatCss' ,['sass'], function(){
 		'src/css/normalize.css',
 		'src/css/slick-theme.css',
 		'src/css/slick.css',
+		'src/css/style -select.css',
 		'src/css/jquery.fancybox.css'])
 	.pipe(concat('libs.css'))
 	.pipe(cssnano())
@@ -35,6 +36,7 @@ gulp.task('concatJs' , function(){
 	return gulp.src([
 		'src/js/jquery.min.js',
 		'src/js/slick.min.js',
+		'src/js/select.js',
 		'src/js/jquery.fancybox.min.js'])
 	.pipe(concat('libs.js'))
 	.pipe(uglify())

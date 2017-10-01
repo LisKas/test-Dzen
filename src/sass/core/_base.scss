@@ -1,3 +1,4 @@
+
 * :focus{
 	outline: none;
 }
@@ -108,7 +109,7 @@ img{
 	position: absolute;
 	top: 45px;
 	left: 100%;
-	margin-left: 100px;
+	margin-left: 175px;
 	width: 40px;
 	
 	li{
@@ -152,4 +153,3 @@ img{
 @import "block-price";
 @import "block-quote";
 @import "footer";
-@import "media";

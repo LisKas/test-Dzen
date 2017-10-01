@@ -1,0 +1,23 @@
+/*...............................................BLOCK _ GALLERY............................................*/
+@media screen and (max-width: 1200px) {
+.gallery-photo{
+		width: 50%;
+		img{
+	      width: 100%;
+	  }
+}
+}
+
+@media screen and (max-width: 860px) {
+.gallery-photo{
+		width: 100%;
+		margin: 10px 105px;
+}
+}
+@media screen and (max-width: 600px) {
+.gallery-photo{
+		width: 100%;
+		margin: 0 10px;
+}
+}
+

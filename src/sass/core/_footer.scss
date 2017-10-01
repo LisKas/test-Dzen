@@ -1,36 +1,31 @@
 .footer-site{
-	color: white;
+  color: white;
 
-	.footer{
-    padding: 90px 0;	
-	background-color: $primary-color;
-	.footer-col{
-		width: 50%;
-	  padding: 0 50px;
-		p{
-		display: inline-block;
-		margin: 0;
-		
-	    }
-    .ft-about{
-      margin-bottom: 65px;
-    }  
-	}
-	
-    }
-    .copyright{
+  .footer{
+      padding: 90px 0;	
+      background-color: $primary-color;
+  	.footer-col{
+  		width: 50%;
+      .ft-about{
+        margin-bottom: 65px;
+        padding-right: 130px;
+      }  
+      .ft-title{
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 55px;
+      }
+  	}
+  }
+  .copyright{
     padding: 40px 0;
     text-align: center;
-	background-color: darken($primary-color, 1.8%);
-	color: lighten($grey, 46% )
-    }
+  	background-color: darken($primary-color, 1.8%);
+  	color: lighten($grey, 46% )
+  }
 }
-.ft-title{
-		font-size: 18px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 55px;
-}
+
 
 
 
@@ -71,11 +66,15 @@
 }
 }
  .contact{
-    margin-bottom: 65px;
+    margin-bottom: 88px;
     &__item{
-      float: left;
-     margin-right: 20px;
+
+      display: inline-block;
+     margin-right: 75px;
      margin-bottom: 17px;
+     p{
+      display: inline-block;
+     }
    }
    &__item:last-child{
   padding-left: 20px;

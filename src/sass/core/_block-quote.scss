@@ -9,12 +9,13 @@
 		box-shadow: 9px 9px 50px rgba(0,0,0 , .10);	
 		border-radius: 10px;
 		background-color: white;
-		width: 100%;
+		margin: 0 20px;
 		.slider-for{
-			position: relative;
-           max-width: 1000px;
-           margin: 0 auto;
-           padding-top: 30px;
+		   position: relative;
+           max-width: 100%;
+           margin-left: 60px;
+           margin-right: 145px;
+           padding-top: 50px;
            padding-bottom: 70px;
        }
 		.slider-nav{
@@ -34,31 +35,36 @@
 	.photo-trainer{
 		float: left;
 		position: relative;
+		width: 25%;
+		img{
+			margin: 0 auto;
+		}
 		&::before{
 			position:absolute;
 			content: '';
 			border-left: 2px solid lighten($grey, 45.5%);
 			top: 73px;
-		    right: -45px;
+		    left: 100%;
 			bottom: 0;
 		}
 	}
 	.comment{
 		display: inline-block;
-		width: 670px;
-		margin-left: 85px;
+		width:75%;	
+		padding-left: 30px;	
+		
 		.text-comment{
-			font-style: italic;
-			margin-bottom: 30px;
 			position: relative;
-			&::before{
+			font-style: italic;
+		
+				&::before{
 				position:absolute;
 				content:'';
 				background: url(../img/icon/up-quote.png) no-repeat;
 				width: 25px;
 				height: 15px;
 				top: 0;
-				left: -50px;
+				left: -40px;
 			}
 			&::after{
 				position:absolute;
@@ -66,16 +72,22 @@
 				background: url(../img/icon/down-quote.png) no-repeat;
 				width: 25px;
 				height: 15px;
-				right: -50px;
-				bottom: 0;
+				right: 0;
+				bottom: -40px;
 			}
+		}
+		.position{
+			margin-top: 30px;
+		
 		}
 		.name{
 			display: block;
 			font-size: 18px;
 			font-weight: 700;
 			color: $primary-color;
+		
 		}
+		
 		
 	}
 

@@ -1,0 +1,114 @@
+/*...............................................BLOCK _ PRICE............................................*/
+
+@media screen and (max-width: 920px) {
+	.block-price{
+	padding-top: 80px;
+	.price{
+		
+		ul{
+			margin-bottom: 18px;
+			.price-title{
+				margin-bottom: 18px;
+
+				padding: 35px 0;
+				font-size: 60px;
+			}
+			li{
+				padding: 15px 0;
+				font-size: 15px;
+			}
+			li+li::before{
+			    left: 80px;
+			    right: 80px;
+			}
+		}
+	}
+	.btn{
+		padding: 10px 30px;
+		font-size: 14px;
+		}
+		
+}
+}
+
+@media screen and (max-width: 780px) {
+	.block-price{
+	
+	.price{
+		width: 100%;
+		margin: 0 180px;
+		padding-bottom: 50px;	
+		margin-bottom: 30px;
+		
+		ul{
+			list-style-type: none;	
+			margin-bottom: 25px;
+
+			.price-title{
+				margin-bottom: 25px;
+				padding: 45px 0;
+			}
+			.hover{
+				opacity: 1;
+			}
+			li{
+				text-transform: uppercase;
+				padding: 25px 0;
+				font-size: 18px;
+				position: relative;
+			}
+			li+li::before{
+			    left: 135px;
+			    right: 135px;
+			}
+		}
+	}
+	.btn{
+		padding: 15px 45px;
+		font-size: 16px;
+		}
+		
+}
+}
+
+@media screen and (max-width: 700px) {
+	.block-price{
+	
+	.price{
+		margin: 0 100px;
+		margin-bottom: 30px;
+}
+}
+
+}
+
+@media screen and (max-width: 530px) {
+	.block-price{
+	.price{
+		margin: 0 15px;
+		margin-bottom: 30px;
+		ul{
+			margin-bottom: 18px;
+			.price-title{
+				margin-bottom: 18px;
+				padding: 35px 0;
+				font-size: 60px;
+			}
+			li{
+				padding: 20px 0;
+				font-size: 18px;
+			}
+			li+li::before{
+			    left: 80px;
+			    right: 80px;
+			}
+		}
+	}
+	.btn{
+		padding: 15px 45px;
+		font-size: 16px;
+		}
+		
+}
+}
+
